@@ -37,9 +37,9 @@ export const SITE: SiteConfig = {
   trade: 'auto glass repair',
   phone: '+17025550198', // PLACEHOLDER — replace with real dialable number
   phoneDisplay: '(702) 555-0198', // PLACEHOLDER
-  email: 'service@vegasmobileautoglass.com', // PLACEHOLDER local-part — confirm the real inbox
+  email: 'service@mobileautoglassvegas.com', // PLACEHOLDER local-part — confirm the real inbox
   region: 'Las Vegas',
-  url: 'https://vegasmobileautoglass.com', // real domain — keep in sync with astro.config.mjs
+  url: 'https://mobileautoglassvegas.com', // real domain — keep in sync with astro.config.mjs
   // Call-only for now: empty endpoint disables form submission and shows an on-page
   // "we'll call you back" acknowledgement without sending anything. Wire a backend later
   // (Web3Forms endpoint+key, Formspree endpoint, or a Worker URL) — see SPEC §8.
