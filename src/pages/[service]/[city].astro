@@ -57,7 +57,7 @@ const faqLd = faqPage(combinedFaqs);
 if (faqLd) jsonLd.push(faqLd);
 ---
 
-<BaseLayout title={title} description={description} heroPreload={heroUrl} jsonLd={jsonLd}>
+<BaseLayout title={title} description={description} heroPreload={heroUrl} jsonLd={jsonLd} noindex={true}>
   <!-- Hero -->
   <section class="hero-single" style={`background-image:url('${heroUrl}')`}>
     <div class="container">
