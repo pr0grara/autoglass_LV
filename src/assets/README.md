@@ -6,9 +6,12 @@ Source images, re-optimized at build by `astro:assets` (large source files are f
 assets/
 ├─ hero/          # full-bleed hero backgrounds (CSS background-image, optimized to WebP)
 ├─ services/      # one photo per service (slug-named); used on cards + service pages
-├─ real_photos/   # real job photos (optional extras)
 └─ maps/          # static map art if you ever drop the live embeds
 ```
+
+Service photos are best at **3:2 landscape** (they're cropped to 3:2 on city-page cards and
+shown at natural ratio on the homepage rows). Drop in large files freely — `astro:assets`
+resizes/compresses them at build; only the optimized variants ship.
 
 ## ⚠️ These are PLACEHOLDERS
 
@@ -30,7 +33,6 @@ doesn't look broken. **Replace them with real job photos before launch** — rea
 | `services/power-window-repair.jpg` | `power-window-repair` service |
 | `services/window-regulator-repair.jpg` | `window-regulator-repair` service |
 | `services/emergency-auto-glass.jpg` | `emergency-auto-glass` service (emergency) |
-| `real_photos/*` | optional extras (not wired by default) |
 
 Service photos are imported at the top of `src/config/services.ts`. Per-city overrides go in
 `city.serviceImages` / `city.heroImage` in `src/config/cities.ts`.
