@@ -36,8 +36,8 @@ export const SITE: SiteConfig = {
   company: 'Vegas Mobile Auto Glass',
   tagline: 'Mobile Auto Glass & Power Window Repair',
   trade: 'auto glass repair',
-  phone: '+17025550198', // PLACEHOLDER — replace with real dialable number
-  phoneDisplay: '(702) 555-0198', // PLACEHOLDER
+  phone: '+17254258886', // LIVE tracking number — Las Vegas 725 overlay local (no 702 inventory on Twilio that day) (Twilio leadgen acct, 2026-10-08). Routes via lead-gen-twilio /incoming → whisper+voicemail → logs to calls table as "Vegas Mobile Auto Glass".
+  phoneDisplay: '(725) 425-8886',
   email: 'service@mobileautoglassvegas.com', // PLACEHOLDER local-part — confirm the real inbox
   region: 'Las Vegas',
   url: 'https://mobileautoglassvegas.com', // real domain — keep in sync with astro.config.mjs
