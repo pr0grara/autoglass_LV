@@ -1,6 +1,6 @@
 {
   "name": "autoglass-lv",
-  "description": "Lead-gen site for Vegas Mobile Auto Glass — mobile auto glass & power window repair in Las Vegas.",
+  "description": "Lead-gen site for Vegas Mobile Auto Glass \u2014 mobile auto glass & power window repair in Las Vegas.",
   "type": "module",
   "version": "1.0.0",
   "private": true,
@@ -12,7 +12,8 @@
     "build": "astro build",
     "check": "astro check",
     "preview": "astro preview",
-    "deploy": "astro build && npx wrangler deploy"
+    "deploy": "astro build && npx wrangler deploy",
+    "indexnow": "node scripts/indexnow.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",
